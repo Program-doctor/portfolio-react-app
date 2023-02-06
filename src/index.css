@@ -14,8 +14,8 @@ h1, h2, h3, h5{
 }
 :root{
   --color-bg: #301934;
-  --color-bg-variant: #4e0266;
-  --color-primary: #BF40BF98;
+  --color-bg-variant: #431D5A;
+  --color-primary:#b357bb;
   --color-primary-variant: #604771;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -65,4 +65,7 @@ a:hover{
 .btn-primary{
   background: var(--color-primary);
   color: var(--color-bg);
+}
+.card{
+  background-color: var(--color-bg-variant);
 }
