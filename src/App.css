@@ -1,5 +1,10 @@
 .App {
+  margin-top: 120px;
   text-align: center;
+  color: #fff;
+}
+textarea{
+  background-color: #301934;
   color: #fff;
 }
 

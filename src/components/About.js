@@ -1,5 +1,6 @@
 import React from "react";
-import profile2 from "../profiles/profile2.jpg"
+// import profile2 from "../profiles/profile2.jpg"
+import profile3 from "../profiles/IMG_2244.JPG"
 
 export default function About(){
     return (
@@ -7,7 +8,7 @@ export default function About(){
             <p>Get to know</p>
             <h2>About me</h2>
             <div>
-                <img src={profile2} width="250"
+                <img src={profile3} width="250"
                 alt="me" />
             </div>
             <div className="card"><h6>Industry</h6>
