@@ -5,7 +5,9 @@ import Weather from "../work/WeatherApp.png";
 
 export default function Portfolio(){
     return (
-        <div>
+        <div id="portfolio">
+          <h5 className="text-light">My Recent Work</h5>
+          <h2>Portfolio</h2>   
         <div>
           <img src={weatherapp} alt="Weather App"  width={350} height={200}/> 
           <h3>React Weather App</h3>

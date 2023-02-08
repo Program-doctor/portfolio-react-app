@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience(){
     return (
-        <div><p>What Skills I have</p>
+        <div id="experience"><p>What Skills I have</p>
         <h2>My Experience</h2>
         <div>
             <h4>Development & Design</h4>

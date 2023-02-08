@@ -1,10 +1,11 @@
+import React from 'react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
-import Header from './components/Header';
-import Nav from './components/Nav';
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
 import Portfolio from './components/Portfolio';
 
 function App() {

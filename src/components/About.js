@@ -1,10 +1,9 @@
 import React from "react";
-// import profile2 from "../profiles/profile2.jpg"
-import profile3 from "../profiles/IMG_2244.JPG"
+import profile3 from "../profiles/profile1.jpg"
 
 export default function About(){
     return (
-        <div>
+        <div id="about">
             <p>Get to know</p>
             <h2>About me</h2>
             <div>

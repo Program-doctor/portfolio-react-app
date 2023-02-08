@@ -1,0 +1,41 @@
+#top p{
+    margin-bottom: -25px;
+}
+#top h5{
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+#top a{
+    margin-right: 15px;
+}
+#top a{
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.img-content{
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(var(--color-primary),transparent);
+    position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3rem;
+  /* border-radius: 12rem 12rem 0 0; */
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.img-card{
+    width: 15rem;
+    height: 14rem;
+    background: linear-gradient(var(--color-primary),transparent,var(--color-bg),transparent);
+    position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -2rem;
+  /* border-radius: 12rem 12rem 0 0; */
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.img-card img{
+    margin-top: -35px;
+}
