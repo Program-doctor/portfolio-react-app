@@ -22,7 +22,7 @@
   margin-top: 3rem;
   /* border-radius: 12rem 12rem 0 0; */
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 4.5rem 1.5rem 1.5rem 1.5rem;
 }
 .img-card{
     width: 15rem;
@@ -32,10 +32,27 @@
   left: 50%;
   transform: translateX(-50%);
   margin-top: -2rem;
-  /* border-radius: 12rem 12rem 0 0; */
   overflow: hidden;
+  box-shadow:3px 3px 2px 1px var(--color-primary) inset;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 .img-card img{
     margin-top: -35px;
+}
+@media screen and (max-width: 600px){
+    .img-content{
+        width: 20rem;
+        height: 17rem;
+        padding-top: 4.4rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .img-card{
+        width: 14rem;
+        height: 15rem;
+        padding-top: 4.5rem;
+    }
+    .img-card img{
+        width: 11.5rem;
+    }
 }
