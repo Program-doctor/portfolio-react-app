@@ -1,30 +1,32 @@
 import React from "react";
+import "../components/Experience.css"
 
 export default function Experience(){
     return (
-        <div id="experience"><p>What Skills I have</p>
+        <div id="experience"><small className="text-light">What Skills I have</small>
         <h2>My Experience</h2>
-        <div>
-            <h4>Development & Design</h4>
-            <h6>HTML</h6>
+        <div className="experiences">
+        <div className="dev">
+            <h2>Development & Design</h2>
+            <h3>HTML</h3>
             <p>Experienced</p>
-            <h6>CSS</h6>
+            <h3>CSS</h3>
             <p>Experienced</p>
-            <h6>JavaScript</h6>
+            <h3>JavaScript</h3>
             <p>Intermediate</p>
-            <h6>Bootstrap</h6>
+            <h3>Bootstrap</h3>
             <p>Experienced</p>
-            <h6>React</h6>
+            <h3>React</h3>
             <p>Intermediate</p>
-            <h6>Git & Github</h6>
+            <h3>Git & Github</h3>
             <p>Experienced</p>
-            <h6>Figma</h6>
+            <h3>Figma</h3>
             <p>Intermediate</p>
-            <h6>Ajax</h6>
+            <h3>Ajax</h3>
             <p>Experienced</p>
-            <h6>SEO management</h6>
+            <h3>SEO management</h3>
             <p>Intermediate</p>
-            <h6>Responsive Designs</h6>
+            <h3>Responsive Designs</h3>
             <p>Experienced</p>
             </div>
         <div>
@@ -41,6 +43,7 @@ export default function Experience(){
             <p>Great</p>
             <h6>Flexibility</h6>
             <p>Strong</p>
+            </div>
             </div>
             </div>
     )

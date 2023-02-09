@@ -1,0 +1,11 @@
+#experience{
+    margin-top: 40px;
+}
+#experience  h2{
+    margin-top: 0;
+    color: var(--color-primary);
+}
+.experiences{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
