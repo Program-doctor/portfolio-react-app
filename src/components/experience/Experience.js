@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Experience.css"
+import "./Experience.css"
 
 export default function Experience(){
     return (

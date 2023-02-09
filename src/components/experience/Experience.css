@@ -9,3 +9,8 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.dev{
+    background: var(--color-bg-variant);
+    padding: 3rem .5rem;
+    border-radius: 40px;
+}
