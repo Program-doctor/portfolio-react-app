@@ -8,9 +8,15 @@
     color: var(--color-primary);
     margin-bottom: 80px;
 }
-.about__me{
-    width: 220px;
+.about-container{
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__me{
+    width: 230px;
+    margin: auto;
+    margin-top: -8px;
     background: linear-gradient(45deg,transparent,var(--color-primary));
     border-radius: 2rem;
 }
@@ -26,43 +32,87 @@
   .about__me img:hover {
     transform: rotate(0);
   }
+  .about-content{
+      width: 35%;
+      margin: auto;
+  }
   .about__cards-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.86rem;
   }
   
-  .about__card{
+  .card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1rem 0.6rem;
+    padding: 5px;
+    padding-bottom: 12px;
     text-align: center;
   }
   
-  .about__card:hover{
+  .card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
   }
   
   .about-icon{
-    color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-top: 10px;
   }
   
-  .about__card h5{
+  .card h6{
+      margin-top: 4px;
     font-size: 0.95rem;
+    margin-bottom: 3px;
   }
   
-  .about__card small {
+  .card small {
     font-size: 0.7rem;
     color: var(--color-light);
   }
   
-  .about__content p{
-    margin: 2rem 0 2.6rem;
+  .about-content p{
+    margin: 1.5rem 0 1rem;
     color: var(--color-light);
+    text-align: left;
   }
-  
+  .about-content a{
+      display: block;
+      text-align: left;
+      text-decoration: none;
+      margin-top: 35px;
+  }
+  @media screen and (max-width: 940px) {
+      #about{
+          margin-top: 50px;
+      }
+      .about-container{
+          flex-direction: column;
+      }
+      .about__me{
+          margin-top: -25px;
+          width: 200px;
+      }
+      .about-content{
+          width: 95%;
+          margin: auto;
+          margin-top: 20px;
+      }
+  }
+  @media screen and (max-width: 600px){
+      .about__me{
+          width: 150px;
+      }
+      #about h2{
+          margin-bottom: 70px;
+      }
+      .about-content p{
+          text-align: center;
+    }
+    .about-content a{
+        margin: auto;
+        margin-top: 40px;
+    }
+  }

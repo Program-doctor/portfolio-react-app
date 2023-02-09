@@ -40,6 +40,9 @@
     margin-top: -35px;
 }
 @media screen and (max-width: 600px){
+    #top h1{
+        font-size: 2.3rem;
+    }
     .img-content{
         width: 20rem;
         height: 17rem;
