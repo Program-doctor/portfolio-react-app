@@ -1,6 +1,10 @@
 import React from "react";
+<<<<<<< HEAD:src/components/Experience.js
 import "../components/Experience.css";
 import { BsPatchCheckFill } from 'react-icons/bs';
+=======
+import "./Experience.css"
+>>>>>>> 1a41abb446593b2d80a2c9503650ba0620df609d:src/components/experience/Experience.js
 
 export default function Experience(){
     return (
