@@ -48,25 +48,20 @@
     margin-left: 15px;
     text-align: left;
 }
-.wrapper2{
-    margin-top: -25px;
-    margin-bottom: 25px;
-    margin-left: 15px;
-    text-align: left;
-}
+
 .wrapper small{
     display: block;
     margin-top: -15px;
     margin-bottom: 5px;
 }
-.wrapper2 small{
-    display: block;
-    margin-top: -15px;
-    margin-bottom: 5px;
-}
+
 @media screen and (max-width: 510px){
     .dev,.soft-skills{
         width:min-content;
+    }
+    .soft-skills{
+        padding: 2.4rem .5rem;
+        padding-left: 1rem;
     }
     .experience__content,.experience__content2{
         text-align: left;
