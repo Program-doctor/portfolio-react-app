@@ -6,6 +6,61 @@
     color: var(--color-primary);
 }
 .experiences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.dev,.soft-skills{
+    background: var(--color-bg-variant);
+  padding: 2.4rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.dev:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.soft-skills:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+.experience__content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.experience__content2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    
+}
+.experience__details{
+    display: flex;
+}
+.wrapper{
+    margin-top: -25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    text-align: left;
+}
+.wrapper2{
+    margin-top: -25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    text-align: left;
+}
+.wrapper small{
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.wrapper2 small{
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 5px;
 }
