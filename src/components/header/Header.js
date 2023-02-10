@@ -11,7 +11,7 @@ export default function Header(){
             <h1>Promise Sylvester</h1>
             <h5 className="text-light">Frontend Developer</h5>
             <a href={resume} className="btn" download>Download CV</a>
-            <a href="#top" className="btn btn-primary">Let's Talk</a>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
             <div className="img-content">
                 <div className="img-card">
                 <img src={profile1} width="200"
