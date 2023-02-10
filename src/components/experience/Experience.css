@@ -64,3 +64,11 @@
     margin-top: -15px;
     margin-bottom: 5px;
 }
+@media screen and (max-width: 510px){
+    .dev,.soft-skills{
+        width:min-content;
+    }
+    .experience__content,.experience__content2{
+        text-align: left;
+    }
+}
