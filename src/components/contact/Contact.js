@@ -9,8 +9,7 @@ export default function Contact(){
         <div id="contact">
             <small className="text-light">Get in Touch</small>
             <h2>Contact Me</h2>
-            <div className="contact-wrapper">
-            <div className="wrapper">
+            <div className="wrap">
             <div className="container">
                 <div className="card">
                     <FiMail className="icon"/>
@@ -31,13 +30,14 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer">Send a message</a>
                 </div>
             </div>
+            <div className="form">
             <form action="">
             <input type="text" name="" id="" placeholder="Your Full Name" required/>
             <input type="email" name="" id=""color="red" placeholder="Your Email" required/>
             <textarea name="" id="" rows="7" placeholder="Your Message"></textarea>
             <button className="btn btn-primary">Send Message</button>
             </form>
-        </div>
+            </div>
         </div>
         </div>
     )
