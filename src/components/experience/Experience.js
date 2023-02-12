@@ -84,7 +84,7 @@ export default function Experience(){
             </div>
         <div className="soft-skills">
             <h2>Soft Skills</h2>
-            <div className="experience__content2">
+            <div className="experience__content">
             <div className="experience__details">
             <BsPatchCheckFill/>
             <div className="wrapper">

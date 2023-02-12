@@ -1,5 +1,6 @@
  #experience{
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 #experience  h2{
     margin-top: 0;
@@ -32,17 +33,14 @@
 .experience__content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-}
-.experience__content2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 20px;
-    
+    margin-top: -40px;
 }
 .experience__details{
     display: flex;
 }
 .wrapper{
+    display: flex;
+    flex-direction: column;
     margin-top: -25px;
     margin-bottom: 25px;
     margin-left: 15px;
@@ -63,7 +61,7 @@
         padding: 2.4rem .5rem;
         padding-left: 1rem;
     }
-    .experience__content,.experience__content2{
+    .experience__content{
         text-align: left;
     }
 }
