@@ -17,7 +17,7 @@ export default function About(){
             </div>
             <div className="about-content">
             <div className="about__cards-container">  
-            <div className="card">
+            <div className="card card1">
             <BiCodeBlock className="about-icon"/>
             <h6>Industry</h6>
             <small>Knowledge</small></div>
@@ -28,7 +28,7 @@ export default function About(){
             <div className="card">
                 <AiFillFolderOpen className="about-icon"/>
                 <h6>Projects</h6>
-            <small>5+ Completed</small></div>
+            <small>8+ Completed</small></div>
             </div>
             <p className="text-light" >Promise is a Frontend Developer, with skills in Responsive UI designs and Web development, who enjoys building products and applications that solve human problems.With a background in Customer Service, Tech Training & Support, Graphic Design, Content Writing, and Product Support. Promise is able to add value and build a dynamic career by developing scalable tech solutions that address specific user needs.</p>
             <p>She is experienced in building and maintaining websites, implementing responsive designs, optimizing website performance and collaborating with any development team to implement new features and fix bugs.</p>

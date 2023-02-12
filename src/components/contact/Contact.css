@@ -1,0 +1,72 @@
+a{
+    display: inline-block;
+    font-size: .8rem;
+}
+h2{
+    margin-top: 10px;
+    color: var(--color-primary);
+    margin-bottom: 80px;
+}
+h4{
+    margin-top: 15px;
+}
+h5{
+    margin-top: -17px;
+    margin-bottom: 15px;
+}
+
+input,textarea{
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    max-width: 100%;
+    padding: 1.5rem;
+    padding-right: 15rem;
+    resize: none;
+    color: var(--color-white);
+    border-radius: .5rem;
+}
+button{
+    margin-top: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;
+}
+#contact{
+    margin-top: 100px;
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+  margin-right: 50px;
+}
+.card {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 500px){
+    input,textarea{
+        padding-right: 6rem;
+    }
+}

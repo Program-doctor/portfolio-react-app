@@ -1,118 +1,135 @@
 #about{
-    margin-top: 100px;
+  margin-top: 100px;
 }
 .text-light{
-    margin-bottom: -13px;
+  margin-bottom: -13px;
 }
 #about h2{
-    color: var(--color-primary);
-    margin-bottom: 80px;
+  color: var(--color-primary);
+  margin-bottom: 80px;
 }
 .about-container{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+  /* margin: auto; */
+  display: flex;
+  flex-wrap: wrap;
 }
 .about__me{
-    width: 230px;
-    margin: auto;
-    margin-top: -8px;
-    background: linear-gradient(45deg,transparent,var(--color-primary));
-    border-radius: 2rem;
+  width: 230px;
+  margin: auto;
+  margin-top: -8px;
+  background: linear-gradient(45deg,transparent,var(--color-primary));
+  border-radius: 2rem;
 }
-  .about__me img{
-      width: inherit;
-      height: inherit;
-    border-radius: 2rem;
-    border: 3px solid var(--color-primary);
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-  }
-  .about__me img:hover {
-    transform: rotate(0);
-  }
-  .about-content{
-      width: 35%;
-      margin: auto;
-  }
-  .about__cards-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.86rem;
-  }
-  
-  .card{
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 5px;
-    padding-bottom: 12px;
+.about__me img{
+    width: inherit;
+    height: inherit;
+  border-radius: 2rem;
+  border: 3px solid var(--color-primary);
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+.about__me img:hover {
+  transform: rotate(0);
+}
+.about-content{
+    width: 55%;
+    /* margin: auto; */
     text-align: center;
-  }
-  
-  .card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-  }
-  
-  .about-icon{
-    font-size: 1.4rem;
-    margin-top: 10px;
-  }
-  
-  .card h6{
-      margin-top: 4px;
-    font-size: 0.95rem;
-    margin-bottom: 3px;
-  }
-  
-  .card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
-  }
-  
-  .about-content p{
-    margin: 1.5rem 0 1rem;
-    color: var(--color-light);
+}
+.about__cards-container{
+display: flex;
+flex-wrap: wrap;
+  justify-content:flex-start;
+  margin-left: -20px;
+}
+
+.card{
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 20px;
+  padding-bottom: 12px;
+  text-align: center;
+  max-width: 150px;
+}
+
+.card:hover{
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.card1{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-icon{
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.card h6{
+    margin-top: 4px;
+  font-size: 0.95rem;
+  margin-bottom: 3px;
+}
+
+.card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about-content p{
+  margin: 1.5rem 0 1rem;
+  color: var(--color-light);
+  text-align: left;
+}
+.about-content a{
+    display: block;
     text-align: left;
+    text-decoration: none;
+    margin-top: 35px;
+}
+@media screen and (max-width: 940px) {
+    #about{
+        margin-top: 50px;
+    }
+    .about-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about__me{
+        margin-top: -25px;
+        width: 200px;
+    }
+    .about-content{
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .about__cards-container{
+      justify-content: center;
+    }
+    .about-content p{
+      text-align: center;
+}
+}
+@media screen and (max-width: 600px){
+    .about__me{
+        width: 150px;
+    }
+    #about h2{
+        margin-bottom: 70px;
+    }
+    .about-content p{
+        text-align: center;
   }
   .about-content a{
-      display: block;
-      text-align: left;
-      text-decoration: none;
-      margin-top: 35px;
+      margin: auto;
+      margin-top: 40px;
   }
-  @media screen and (max-width: 940px) {
-      #about{
-          margin-top: 50px;
-      }
-      .about-container{
-          flex-direction: column;
-      }
-      .about__me{
-          margin-top: -25px;
-          width: 200px;
-      }
-      .about-content{
-          width: 95%;
-          margin: auto;
-          margin-top: 20px;
-      }
+  .about__cards-container{
+    justify-content: center;
   }
-  @media screen and (max-width: 600px){
-      .about__me{
-          width: 150px;
-      }
-      #about h2{
-          margin-bottom: 70px;
-      }
-      .about-content p{
-          text-align: center;
-    }
-    .about-content a{
-        margin: auto;
-        margin-top: 40px;
-    }
-  }
+}
