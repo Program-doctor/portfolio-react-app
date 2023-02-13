@@ -15,19 +15,19 @@ export default function Contact(){
                     <FiMail className="icon"/>
                 <h4>Email</h4>
                 <h5>sylvesterpro2017@gmail.com</h5>
-                <a href="mailto:sylvesterpro2017@gmail.com">Send a message</a>
+                <a href="mailto:sylvesterpro2017@gmail.com" title="Send me a message">Send a message</a>
                 </div>
                 <div className="card">
                     <BsWhatsapp className="icon"/>
                 <h4>WhatsApp</h4>
                 <h5>+234 9074 395 261</h5>
-                <a href="https://api.whatsapp.com/send?phone=09074395261" target="_blank" rel="noopener noreferrer">Send a message</a>
+                <a href="https://api.whatsapp.com/send?phone=09074395261" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
                 <div className="card">
                     <BsLinkedin className="icon"/>
                 <h4>Linkedin</h4>
                 <h5>Sylvester Promise</h5>
-                <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer">Send a message</a>
+                <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
             <div className="form">

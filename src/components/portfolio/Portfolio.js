@@ -44,8 +44,8 @@ export default function Portfolio(){
           <h3>{title}</h3>
           <small className="text-light">{details}</small>
           <div className="links">
-          <a href={github} rel="noopener noreferrer" className="btn">Github</a>
-          <a href={demo} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Live Demo</a>
+          <a href={github} rel="noopener noreferrer" className="btn" title="Link to Github">Github</a>
+          <a href={demo} target="_blank" rel="noopener noreferrer" className="btn btn-primary" title="Link to Live page">Live Demo</a>
           </div>
         </div>
             )
