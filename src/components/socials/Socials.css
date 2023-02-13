@@ -1,0 +1,21 @@
+#socials{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    bottom: 7%;
+    gap: .8rem;
+}
+#socials a{ 
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+#socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+    margin-left: -15px;
+}

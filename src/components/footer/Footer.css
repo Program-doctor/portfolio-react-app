@@ -24,8 +24,12 @@ ul{
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 li{
     list-style: none;
+}
+li a {
+    font-size: .9rem;
 }
