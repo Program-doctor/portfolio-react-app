@@ -7,10 +7,9 @@
 }
 #top a{
     margin-right: 15px;
-}
-#top a{
     text-decoration: none;
     margin-bottom: 40px;
+    font-size: 1rem;
 }
 .img-content{
     width: 20rem;
@@ -41,7 +40,8 @@
 }
 .scroll{
     position: absolute;
-    right: 0;
+    right: 5%;
+    transform: translateX(-80%);
     bottom: 5%;
     transform: rotate(90deg);
 }
@@ -63,5 +63,8 @@
     }
     .img-card img{
         width: 11.5rem;
+    }
+    .scroll{
+        display: none;
     }
 }

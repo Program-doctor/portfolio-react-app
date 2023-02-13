@@ -1,12 +1,14 @@
 #socials{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap:0;
     align-items: center;
     position: absolute;
     left: 10%;
     bottom: 7%;
     gap: .8rem;
+    z-index: 1000;
 }
 #socials a{ 
     font-size: 1.4rem;
@@ -18,4 +20,11 @@
     height: 2rem;
     background-color: var(--color-primary);
     margin-left: -15px;
+}
+@media screen and (max-width: 600px){
+    #socials{
+        display: inline;
+        bottom: -20%;
+        left: 15%;
+    }
 }

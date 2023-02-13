@@ -43,6 +43,8 @@ h1{
 a{
   color: var(--color-primary);
   transition: var(--transition);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 a:hover{
@@ -50,6 +52,8 @@ a:hover{
 }
 
 .btn{
+  font-size: 1rem;
+  font-weight: 500;
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
