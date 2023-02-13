@@ -33,3 +33,29 @@ li{
 li a {
     font-size: .9rem;
 }
+.handles{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 50px auto;
+    margin-bottom: 60px;
+    font-size: 1rem;
+}
+.handles a{
+    font-size: 1rem;
+    background: var(--color-bg);
+    padding: .8rem;
+    padding-top: .65rem;
+    padding-bottom: .35rem;
+    border-radius: 10px;
+}
+.handles a:hover{
+    background: transparent;
+    border: 1px solid var(--color-bg);
+}
+.footer-icon{
+    color: var(--color-white);
+}
+a:hover .footer-icon{
+    color: var(--color-bg);
+}
