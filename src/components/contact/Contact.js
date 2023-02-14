@@ -31,11 +31,8 @@ export default function Contact(){
                 </div>
             </div>
             <div className="form">
-            <form method="post" data-netlify="true" data-netlify-honeypot="bot-field" name="contact">
+            <form method="post" name="contact">
                  <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                    <input name="bot-field"/>
-                </div>
             <input type="text" name="Full Name" placeholder="Your Full Name" required/>
             <input type="email" name="Email Address" color="red" placeholder="Your Email" required/>
             <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
