@@ -31,11 +31,15 @@ export default function Contact(){
                 </div>
             </div>
             <div className="form">
-            <form action="">
-            <input type="text" name="" id="" placeholder="Your Full Name" required/>
-            <input type="email" name="" id=""color="red" placeholder="Your Email" required/>
-            <textarea name="" id="" rows="7" placeholder="Your Message"></textarea>
-            <button className="btn btn-primary">Send Message</button>
+            <form action="" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" name="contact" onSubmit="submit">
+                 <input type="hidden" name="form-name" value='contact' />
+                <div hidden>
+                    <input name="bot-field"/>
+                </div>
+            <input type="text" name="Full Name" id="" placeholder="Your Full Name" required/>
+            <input type="email" name="Email Address" id=""color="red" placeholder="Your Email" required/>
+            <textarea name="Message" id="" rows="7" placeholder="Your Message"></textarea>
+            <button className="btn btn-primary" type="submit">Send Message</button>
             </form>
             </div>
         </div>
