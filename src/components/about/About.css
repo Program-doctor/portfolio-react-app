@@ -1,5 +1,5 @@
-#about{
-  margin-top: 100px;
+#about h5{
+  margin-top: 5rem;
 }
 .text-light{
   margin-bottom: -13px;
@@ -9,7 +9,6 @@
   margin-bottom: 80px;
 }
 .about-container{
-  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -34,7 +33,6 @@
 }
 .about-content{
     width: 55%;
-    /* margin: auto; */
     text-align: center;
 }
 .about__cards-container{
