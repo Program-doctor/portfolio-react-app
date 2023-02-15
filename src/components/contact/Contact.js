@@ -33,6 +33,8 @@ export default function Contact(){
             </div>
             <form method="post" name="contact">
                  <input type="hidden" name="form-name" value="contact" />
+                 <input type="hidden" name="subject" 
+  value="Comment imaginative-Pastelito.netlify.app" />
 
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" color="red" placeholder="Your Email" required/>
