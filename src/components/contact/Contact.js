@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './Contact.css';
 import { FiMail } from 'react-icons/fi';
 import { BsWhatsapp } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
 
 export default function Contact(){
+    const [formStatus, setFormStatus]=useState('Send Message');
     return(
         <div id="contact">
             <small className="text-light">Get in Touch</small>
@@ -16,7 +17,7 @@ export default function Contact(){
                     <FiMail className="icon"/>
                 <h4>Email</h4>
                 <h5>sylvesterpro2017@gmail.com</h5>
-                <a href="mailto:sylvesterpro2017@gmail.com" title="Send me a message">Send a message</a>
+                <a href="mailto:sylvesterpro2017@gmail.com" title="Send me a message" >Send a message</a>
                 </div>
                 <div className="card">
                     <BsWhatsapp className="icon"/>
@@ -31,12 +32,12 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <form method="post" name="contact">
+            <form method="post" action="/Success/" name="contact">
                  <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" color="red" placeholder="Your Email" required/>
-            <textarea name="message" rows="7" placeholder="Your Message"></textarea>
-            <button className="btn btn-primary" type="submit">Send Message</button>
+            <textarea name="message" rows="7" placeholder="Leave a Message"></textarea>
+            <button className="btn btn-primary" type="submit" onClick={()=>setFormStatus('Submitting...')}>{formStatus}</button>
             </form>
             </div>
         </div>
