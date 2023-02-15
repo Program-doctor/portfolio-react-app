@@ -9,6 +9,7 @@ export default function Contact(){
         <div id="contact">
             <small className="text-light">Get in Touch</small>
             <h2>Contact Me</h2>
+            <div className="align">
             <div className="wrap">
             <div className="container">
                 <div className="card">
@@ -30,9 +31,9 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <div className="form">
+        
             <form method="post" name="contact">
-                 <input type="hidden" name="form-name" value="contact" />
+
             <input type="text" name="Full Name" placeholder="Your Full Name" required/>
             <input type="email" name="Email Address" color="red" placeholder="Your Email" required/>
             <textarea name="Message" rows="7" placeholder="Your Message"></textarea>

@@ -41,10 +41,10 @@
 display: flex;
 flex-wrap: wrap;
   justify-content:flex-start;
-  margin-left: -20px;
+  gap: 1.5rem;
 }
 
-.card{
+.about-card{
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
@@ -54,7 +54,7 @@ flex-wrap: wrap;
   max-width: 150px;
 }
 
-.card:hover{
+.about-card:hover{
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
@@ -69,13 +69,13 @@ flex-wrap: wrap;
   margin-top: 10px;
 }
 
-.card h6{
+.about-card h6{
     margin-top: 4px;
   font-size: 0.95rem;
   margin-bottom: 3px;
 }
 
-.card small {
+.about-card small {
   font-size: 0.7rem;
   color: var(--color-light);
 }
@@ -109,6 +109,7 @@ flex-wrap: wrap;
         margin-top: 20px;
     }
     .about__cards-container{
+      gap: 1.5rem;
       justify-content: center;
     }
     .about-content p{
@@ -131,5 +132,6 @@ flex-wrap: wrap;
   }
   .about__cards-container{
     justify-content: center;
+    gap: 1.5rem;
   }
 }

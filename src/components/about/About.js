@@ -17,15 +17,15 @@ export default function About(){
             </div>
             <div className="about-content">
             <div className="about__cards-container">  
-            <div className="card card1">
+            <div className="about-card card1">
             <BiCodeBlock className="about-icon"/>
             <h6>Industry</h6>
             <small>Knowledge</small></div>
-            <div className="card">
+            <div className="about-card">
                 <SlBadge className="about-icon"/>
                 <h6>Experience</h6>
             <small>1+ Year working</small></div>
-            <div className="card">
+            <div className="about-card">
                 <AiFillFolderOpen className="about-icon"/>
                 <h6>Projects</h6>
             <small>8+ Completed</small></div>
