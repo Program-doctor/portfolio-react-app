@@ -33,7 +33,7 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <form method="post" action="/Success"  name="contact" >
+            <form method="post" name="contact" >
                  <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" color="red" placeholder="Your Email" required/>
