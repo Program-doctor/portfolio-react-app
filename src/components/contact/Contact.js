@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import './Contact.css';
 import { FiMail } from 'react-icons/fi';
 import { BsWhatsapp } from 'react-icons/bs'
@@ -7,19 +6,6 @@ import { BsLinkedin } from 'react-icons/bs'
 
 export default function Contact(){
     const [formStatus, setFormStatus]=useState('Send Message');
-    let navigate = useNavigate()
-    const submitHandler = (e) =>{
-      e.preventDefault();
-      let myForm = document.getElementById("contact-form");
-      let formData = new FormData(myForm);
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      })
-        .then(() => navigate('/Success'))
-        .catch((error) => alert(error));
-    }
   
     return(
         <div id="contact">
@@ -47,7 +33,7 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <form method="post" action="/Success/"  name="contact" onSubmit={submitHandler}>
+            <form method="post" action="/Success"  name="contact" >
                  <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" color="red" placeholder="Your Email" required/>
