@@ -1,9 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
 import './components/contact/Success.css'
 
 
-export default function Success(){
+ class Success extends Component{
+    render(){
     return(
         <div id="card">
             <div className="success">
@@ -11,5 +12,8 @@ export default function Success(){
             <a href="https://imaginative-pastelito-552212.netlify.app/?"><BsFillArrowLeftCircleFill/>Back to the site</a>
             </div>
         </div>
-    )
+    );
 }
+}
+
+export default Success;
