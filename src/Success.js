@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
-import './Success.css'
+import './components/contact/Success.css'
 
 
 export default function Success(){
