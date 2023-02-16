@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import './Contact.css';
 import { FiMail } from 'react-icons/fi';
-import { BsWhatsapp } from 'react-icons/bs'
-import { BsLinkedin } from 'react-icons/bs'
+import { BsWhatsapp } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
 export default function Contact(){
     const [formStatus, setFormStatus]=useState('Send Message');
@@ -33,7 +33,7 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <form method="post" name="contact" action="/success">
+            <form method="post" name="contact" action="/Success">
                  <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" color="red" placeholder="Your Email" required/>
