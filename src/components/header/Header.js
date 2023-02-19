@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../profiles/resume.pdf";
+import resume from "../../profiles/PP-portfolio-recent.pdf";
 import profile1 from "../../profiles/main.JPG"
 import "../header/Header.css"
 import Socials from "../socials/Socials";
