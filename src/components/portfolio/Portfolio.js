@@ -17,7 +17,7 @@ export default function Portfolio(){
     },{
       id:2,
       image:landingpage,
-      title:'React Weather App',
+      title:'Landing Page',
       details:'Landing Page for a Cleaning Business',
       github:'https://github.com/Program-doctor/PPBusiness',
       demo:'https://program-doctor.github.io/PPBusiness/split',
