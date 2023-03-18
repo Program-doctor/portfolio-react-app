@@ -1,5 +1,5 @@
 import React from "react";
-import weatherapp from "../../work/React-weather-app.jpeg";
+import weatherapp from "../../work/React2.png";
 import landingpage from "../../work/landingpage.png";
 import Webshop from "../../work/Webshop.png";
 import './Portfolio.css'
@@ -8,26 +8,28 @@ export default function Portfolio(){
   const data=[
     {
       id:1,
-      image:weatherapp,
-      title:'React Weather App',
-      details:'Landing Page for React Weather Application',
-      github:'https://github.com/Program-doctor/weather-react-app',
-      demo:'http://splendid-pavlova-2335ff.netlify.app/',
-      alt:'React Weather App'
-    },{
-      id:2,
       image:landingpage,
       title:'Landing Page',
       details:'Landing Page for a Gallery Portfolio Website',
       github:'https://github.com/Program-doctor/PPBusiness',
       demo:'https://exquisite-mooncake-fdbe30.netlify.app/',
       alt:"Portfolio Landing Page"
-    },{
-      id:3,
+    },
+    {
+      id:2,
       image:Webshop,
       title:'Webshop - Ecommerce website',
       details:'Ebullient Beauty Place Webshop',
       demo:'https://live-ebullient-beauty-place.pantheonsite.io/',alt:'Wordpress- Webstore'
+    },
+    {
+      id:3,
+      image:weatherapp,
+      title:'React Weather App',
+      details:'React Weather Application with Animated icons',
+      github:'https://github.com/Program-doctor/weather-react-app',
+      demo:'http://splendid-pavlova-2335ff.netlify.app/',
+      alt:'React Weather App'
     }
   ]
     return(
@@ -39,7 +41,7 @@ export default function Portfolio(){
           data.map(({id,image,title,details,github,demo,alt})=>{
             return(
           <div key={id} className="content">
-          <img src={image} alt={alt}  width={320} height={500} /> 
+          <img src={image} alt={alt}  width={330} height={500} /> 
           <h3>{title}</h3>
           <small className="text-light">{details}</small>
           <div className="links">
